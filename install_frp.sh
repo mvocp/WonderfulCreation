@@ -1,4 +1,4 @@
-echo "Installing FRP Server... 默认系统架构: Amd64，其他架构请自行更改脚本"
+echo "Installing FRP Server... 默认架构: Amd64，其他架构请自行更改脚本"
 echo "请确保使用root运行script"
 sudo apt-get update
 sudo apt-get install -y wget
