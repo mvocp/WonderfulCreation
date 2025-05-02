@@ -2,10 +2,10 @@ echo "Installing FRP Server... 默认架构: Amd64，其他架构请自行更改
 echo "请确保使用root运行script"
 sudo apt-get update
 sudo apt-get install -y wget
-wget https://gh.llkk.cc/https://github.com/fatedier/frp/releases/download/v0.34.1/frp_0.34.1_linux_amd64.tar.gz --no-check-certificate
-tar -zxvf frp_0.34.1_linux_amd64.tar.gz
+wget https://gh.llkk.cc/https://github.com/fatedier/frp/releases/download/v0.61.1/frp_0.61.1_linux_amd64.tar.gz --no-check-certificate
+tar -zxvf frp_0.61.1_linux_amd64.tar.gz
 sudo mkdir /frp
-sudo mv frp_0.34.1_linux_amd64/* /frp
+sudo mv frp_0.61.1_linux_amd64/* /frp
 echo "安装完成，进行自动配置Server中"
 read -p "要设置的链接密码（token）：" -e pwd
 read -p "是否需要关闭强制TLS链接？（建议关闭）（仅输入true/false）：" -e yn_tls
