@@ -2,7 +2,7 @@ echo "Installing FRP Server... 默认架构: Amd64，其他架构请自行更改
 echo "请确保使用root运行script"
 sudo apt-get update
 sudo apt-get install -y wget
-wget https://gh.llkk.cc/https://github.com/fatedier/frp/releases/download/v0.61.1/frp_0.61.1_linux_amd64.tar.gz --no-check-certificate
+wget https://hk713.255650.xyz/github/fatedier/frp/releases/download/v0.61.1/frp_0.61.1_linux_amd64.tar.gz --no-check-certificate
 tar -zxvf frp_0.61.1_linux_amd64.tar.gz
 sudo mkdir /frp
 sudo mv frp_0.61.1_linux_amd64/* /frp
